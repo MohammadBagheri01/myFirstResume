@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1000px)
+{
+    #vertical-header{
+        transform: translateX(400%);
+    }
+    #horizontal-header{
+        transform: translateY(0);
+    }
+    main{
+        width: 100%;
+        margin-top: 60px;
+    }
+    #name-text{
+        font-size: 22px;
+    }
+    #name-text span{
+        font-size: 24px;
+    }
+    .work{
+      width: 600px;
+      height: 350px;
+    }
+
+    .contact-card-title{
+      font-size: 20px;
+    }
+   #contact-card-text{
+      font-size: 18px;
+    }
+    .sosial-media-card{
+      width: 90%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+  .container{
+    width: 90%;
+  }
+  #download-btn ,#go-about-btn{
+    width: 100px;
+  }
+  .horizontal-nav-item {
+    font-size: 14px;
+  }
+  #horizontal-header{
+ translate: 200%;
+
+  }
+  #vertical-md-nav{
+    translate:0;
+  }
+  .section-title{
+    font-size: 20px;
+  }
+  .section-title::after,.section-title::before{
+    width: 4rem;
+  }
+  #home-content , #about-content{flex-direction: column;
+  width: 100%;}
+  #home-content{
+    order:1;
+  }
+  .home-bg,#about-img{
+    order: 1;
+    width: 70%;
+  }
+  .home-texts,#about-texts{
+    width: 70%;
+    order:2;
+    align-items: center;
+  }
+  #about-title{
+    font-size: 20px;
+  }
+  #about-me-text{
+    font-size: 14px;
+  }
+  .btns{
+justify-content: space-evenly;
+  }
+  .work{
+    width: 500px;
+    height: 300px;
+  }
+  #contact-content{
+    flex-direction: column;
+  }
+  #contact-div{
+    order: 2;
+    width: 100%;
+  }
+  #sosial-media-div{
+    width: 100%;
+  }
+  .sosial-media-card{
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 550px){
+  .ability-item{
+    width: 360px;
+    height: 90px;
+
+  }
+  .ability-text-container{
+    width: 270px;
+
+  }
+  .ability-img{
+    width: 60px;
+    height: 60px;
+
+  }
+  .ability-title{
+    font-size: 14px;
+  }
+  .ability-text{
+    font-size: 10px;
+  }
+  .work{
+    width: 350px;
+    height: 180px;
+  }
+  .sosial-media-card{
+    width: 90%;
+  }
+}
